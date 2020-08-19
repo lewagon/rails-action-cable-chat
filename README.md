@@ -1,6 +1,6 @@
 # Rails ActionCable example
 
-This repo is used in support of the **WebSocket & ActionCable** lecture at [Le Wagon Web Dev bootcamp](https://www.lewagon.com/web-development-course/full-time).
+This repo is used in support of the **WebSocket & ActionCable** lecture at [Le Wagon Web Dev bootcamp](https://www.lewagon.com/web-development-course/full-time). 
 
 ## Adding style
 
@@ -17,3 +17,5 @@ bundle exec gemoji extract public/images/emoji
 ```
 
 as explained [here](https://www.rubydoc.info/gems/gemoji/3.0.1).
+
+[Live example](https://wagon-rails-chat.herokuapp.com)

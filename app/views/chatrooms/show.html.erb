@@ -20,5 +20,9 @@
         <%= f.input :content, label: false, placeholder: "Message ##{@chatroom.name}" %>
       <% end %>
     </div>
+
+    <%= simple_form_for [ @chatroom, @message ], remote: true do |f| %>
+      <%= f.input :content, label: false, placeholder: "Message ##{@chatroom.name}" %>
+    <% end %>
   </div>
 </div>
